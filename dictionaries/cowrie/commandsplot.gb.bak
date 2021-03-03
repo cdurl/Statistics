@@ -1,0 +1,54 @@
+#!/usr/bin/gnuplot -persist
+#
+#    
+#    	G N U P L O T
+#    	Version 5.2 patchlevel 2    last modified 2017-11-01 
+#    
+#    	Copyright (C) 1986-1993, 1998, 2004, 2007-2017
+#    	Thomas Williams, Colin Kelley and many others
+#    
+#    	gnuplot home:     http://www.gnuplot.info
+#    	faq, bugs, etc:   type "help FAQ"
+#    	immediate help:   type "help"  (plot window: hit 'h')
+set terminal png
+set output 'hostplot.png'
+
+#Set Variables
+set xlabel "IP"
+set ylabel "COUNT"
+set title "SSH AUTHENTICATIONS by IP COUNT"
+
+# span of data in x and y
+xspan = GPVAL_DATA_X_MAX - GPVAL_DATA_X_MIN
+yspan = GPVAL_DATA_Y_MAX - GPVAL_DATA_Y_MIN
+
+# define the values in x and y you want to be one 'equivalent:'
+# that is, xequiv units in x and yequiv units in y will make a square plot
+xequiv = 100
+yequiv = 250
+
+# aspect ratio of plot
+ar = yspan/xspan * xequiv/yequiv
+
+# dimension of plot in x and y (pixels)
+# for constant height make ydim constant
+ydim = 200
+xdim = 200/ar
+
+# set the y tic interval
+set ytics 100
+
+# set the x and y ranges
+set xrange [GPVAL_DATA_X_MIN:GPVAL_DATA_X_MAX]
+set yrange [GPVAL_DATA_Y_MIN:GPVAL_DATA_Y_MAX]
+
+set terminal png size xdim,ydim
+set output 'test.png'
+set size ratio ar
+
+set style data linespoints
+
+GNUTERM = "qt"
+## Last datafile plotted: "hostname.txt"
+plot "hostname.txt" every ::::19 using 1:xticlabels(2)  with boxes notitle
+#    EOF
